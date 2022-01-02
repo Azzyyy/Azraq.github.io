@@ -1,0 +1,238 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', sans-serif;
+}
+
+#logo{
+	width: 210px;
+	height: 140px;
+}
+
+#cart-logo{
+	width: 50px;
+	height: 50px;
+}
+
+.nav-item{
+	font-size: 1.55em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+}
+
+/*Navigation bar colour*/
+.bg-light {
+    background-color: #7E868A!important;
+}
+
+/* Dropdown menu background color*/
+.navbar-nav > li > .dropdown-menu {
+	background-color: #7E868A;
+}
+
+/* Dropdown menu font color*/
+.navbar-nav > li > .dropdown-menu a{
+	color: #fff;
+}
+
+.navbar-nav > li > .dropdown-menu a:hover{
+	background-color: #4F5457;
+}
+
+.searchbar{
+	margin: 20px;
+}
+
+#search-icon{
+	width: 40px;
+	height: 40px;
+}
+
+.form-control::placeholder {
+	color: #000;
+	opacity: 1;
+	font-size: 1.3em;
+}
+
+.form-control:-ms-input-placeholder {
+	color: #000;
+	font-size: 1.3em;
+}
+
+.form-control::-ms-input-placeholder {
+	color: #000;
+	font-size: 1.3em;
+ }
+
+#main-background{
+	width: 100%;
+	height: 450px;
+}
+
+.learnMore {
+    position: relative;
+    width: 100%;
+}
+
+.learnMore img {
+    width: 100%;
+    height: auto;
+}
+
+.describeLearn{
+	position: absolute;
+	top: 15%;
+    right: 70px;
+	text-align: right;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 3em;
+	letter-spacing: 3px;
+}
+
+.describeLearn h2{
+	color:#4F5B61;
+	letter-spacing: 4px;
+}
+
+.learnMore .btn {
+	background-color: #0563AB;
+    color: #fff;
+    font-family: Merriweather;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(20%, -40%);
+    -ms-transform: translate(20%, -40%);
+}
+
+.learnMore .btn:hover {
+  background-color: #77A3C5;
+  color: #000;
+}
+
+.col{
+	border: thin solid black;
+	margin: 10px;
+}
+
+.row{
+	width: 95%;
+}
+
+.col h3{
+	font-family: Merriweather;
+	font-weight: 700;
+	font-size: 1.8em;
+}
+
+.col p{
+	font-size: 1.2em;
+	color: #4F5B61;
+	font-family: Merriweather;
+	text-align: left;
+}
+
+.col a{
+	text-decoration: none;
+	color: black;
+}
+
+.product-descimages{
+	width: 350px;
+	height: 220px;
+	padding-bottom: 15px;
+}
+
+.breadcrumb{
+	position: absolute;
+	top: 75%;
+    right: 70px;
+	text-align: right;
+	font-size: 1.4em;
+	color: #fff;
+	font-family: Merriweather;
+	font-weight: 600;
+}
+
+.breadcrumb a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.describeStuff{
+	position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 2em;
+}
+
+.description{
+	padding: 30px;
+}
+
+.description p{
+	font-size: 1.3em;
+	font-family: Merriweather;
+	color: #4F5B61;
+}
+
+.description h1{
+	font-size: 3.0em;
+}
+
+/*Digital Distribution*/
+
+.aligncenter {
+    text-align: center;
+}
+* {
+  box-sizing: border-box;
+
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+
+}
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p.c1 {
+  background-color: #0563AB;
+  color:white;
+  width: 60%;
+}
+
+/*Entertainment*/
+
+table.EntTable {
+  width: 50%;
+  height: 300px;
+}
+table.EntTable td, table.EntTable th {
+  border: 5px solid #AAAAAA;
+  padding: 10px 10px;
+}
+table.EntTable tbody td {
+  font-size: 15px;
+}
